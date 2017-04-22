@@ -3,7 +3,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextWebpackPlugin = require('extract-text-webpack-plugin');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 var webpackConfig = {
-    entry: './src/app/index.js',
+    entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'content/scripts/app.bundle.js'
@@ -47,7 +47,7 @@ var webpackConfig = {
             //     collapseWhitespace: true
             // },
             hash: true,
-            template: './src/app/index.html'
+            template: './src/index.html'
         }),
         new ExtractTextWebpackPlugin({
             filename: 'content/styles/app.bundle.css',
