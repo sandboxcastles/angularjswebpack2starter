@@ -1,5 +1,4 @@
 # Starter AngularJS Project with Webpack (Javascript)
-=====================================================
 
 This is a basic starter template for an AngularJS project using Webpack 2. There are a few sample components and directives to get started. This project is the culmination of watching a couple YouTube tutorials and reading through a bunch of random internet tutorials. The directives and components I have provided are broken up into controller and component/directive variables. 
 
