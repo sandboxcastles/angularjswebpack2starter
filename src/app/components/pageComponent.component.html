@@ -1,0 +1,7 @@
+<h2>{{$ctrl.title}}</h2>
+<p>Type your name and you will be given an option.</p>
+<p>
+    <label>Your Name:</label> <input ng-model="$ctrl.username" />
+    <button ng-show="$ctrl.username != '' && $ctrl.username != null" ng-click="$ctrl.showGreeterComponent = !$ctrl.showGreeterComponent" >Say Hi To Yourself</button>
+</p>
+<nila-greeter-component username="{{$ctrl.username}}" ng-show="$ctrl.showGreeterComponent && $ctrl.username != null && $ctrl.username != ''"></nila-greeter-component>
