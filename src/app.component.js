@@ -3,7 +3,7 @@ module.exports = function(ngModule){
     let appCtrl = [function(){
         var $ctrl = this;
         $ctrl.site = {
-            title: 'Anglar Webpack Site'
+            title: 'Angular Webpack Site'
         }
     }];
     let appCmpt = {
